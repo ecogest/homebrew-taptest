@@ -5,7 +5,7 @@ class TestProgram < Formula
   desc ""
   homepage ""
   url "https://github.com/ecogest/test-program/archive/v1.0.tar.gz"
-  sha256 "bb72cd7f6bebfb70ff209fc4f18ca723c437a48ef4a34cdab85ba5c047f18f05"
+  sha256 "3f05c8c623047795c50bf85dc80c3265bf2047f72a7b5c8078b88dee83cd98ca"
   license ""
 
   # depends_on "cmake" => :build
