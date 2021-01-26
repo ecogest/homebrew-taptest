@@ -5,12 +5,12 @@ class TestProgram < Formula
   desc ""
   homepage ""
   url "https://github.com/ecogest/test-program/archive/v1.0.tar.gz"
-  sha256 "3f05c8c623047795c50bf85dc80c3265bf2047f72a7b5c8078b88dee83cd98ca"
+  sha256 "bb72cd7f6bebfb70ff209fc4f18ca723c437a48ef4a34cdab85ba5c047f18f05"
   license ""
 
   # depends_on "cmake" => :build
   bottle do
-    # root_url "https://homebrew.bintray.com/bottles-taptest"
+    root_url "https://homebrew.bintray.com/bottles-taptest"
     cellar :any_skip_relocation
     sha256 "d5b7401bc7ee377187a09c6b0314be4d195d8647778d8f5a7e612172c6c192e7" => :big_sur
   end
