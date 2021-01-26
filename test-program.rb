@@ -19,7 +19,7 @@ class TestProgram < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     system "make"
-    # bin.install "hello"
+    bin.install "hello"
   end
 
   test do
