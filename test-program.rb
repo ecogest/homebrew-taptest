@@ -12,7 +12,7 @@ class TestProgram < Formula
   bottle do
     root_url "https://homebrew.bintray.com/bottles-taptest"
     cellar :any_skip_relocation
-    sha256 "d5b7401bc7ee377187a09c6b0314be4d195d8647778d8f5a7e612172c6c192e7" => :big_sur
+    sha256 "bb72cd7f6bebfb70ff209fc4f18ca723c437a48ef4a34cdab85ba5c047f18f05" => :big_sur
   end
 
   def install
