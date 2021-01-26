@@ -9,6 +9,11 @@ class TestProgram < Formula
   license ""
 
   # depends_on "cmake" => :build
+  bottle do
+    root_url "https://homebrew.bintray.com/bottles-taptest"
+    cellar :any_skip_relocation
+    sha256 "d5b7401bc7ee377187a09c6b0314be4d195d8647778d8f5a7e612172c6c192e7" => :big_sur
+  end
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
